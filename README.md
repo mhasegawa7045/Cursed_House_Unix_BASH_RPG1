@@ -1,8 +1,8 @@
 # Cursed_House_Unix_BASH_RPG1
 
-## Author: Marie Hasegawa
-## Class: Unix
-## Age group: 16+
+- Author: Marie Hasegawa
+- Class: Unix
+- Age group: 16+
 
 The game will teach you skills in order to find freedom through the Cursed House. The skills are based on Unix bash commands.
 _________________________________________________________________
