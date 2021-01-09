@@ -1,0 +1,46 @@
+#!/bin/bash
+PATH=/bin:/usr/bin:
+
+NONE='\033[00m'
+RED='\033[01;31m'
+GREEN='\033[01;32m'
+YELLOW='\033[01;33m'
+PURPLE='\033[01;35m'
+CYAN='\033[01;36m'
+WHITE='\033[01;37m'
+BOLD='\033[1m'
+UNDERLINE='\033[4m'
+BLUE='\033[00;34m'
+LIGHTB='\033[01;34'
+echo "You see an elderly woman sleeping in a pile of empty cans..."
+echo -e "${CYAN}...zzzzzzz..."
+echo -e "${NONE}Do you want to wake her? y/n"
+read RESP
+if [ $RESP = 'y' -o $RESP = 'Y' ]; then
+echo "She wakes up..."
+echo -e "${CYAN}Huh...? Who... are you?${NONE}"
+read ME
+if [ $ME != 'BILL' -a $ME != 'Bill' -a $ME != 'bill' ]; then
+echo -e "${CYAN}A man who doesn't know his own name. Ha."
+echo -e "Don't come back until you know your damn name...zzzz....${NONE}"
+else if [ $ME = 'BILL' -o $ME = 'Bill' -o $ME = 'bill' ]; then 
+echo -e "${CYAN}So Bill is your name. Your parents must hate you. Ha."
+echo -e "Anyways, do you want to know where you are? y/n${NONE}"
+read LETT
+if [ $LETT = 'N' -o $LETT = 'n' ]; then
+echo -e "${CYAN}THEN DON'T WAKE ME UP YOU ${RED}DRUNK ASS!${NONE}"
+else if [ $LETT = 'Y' -o $LETT = 'y' ]; then
+echo -e "${CYAN}How did you get here?${NONE}"
+read ANS
+if [ $ANS = 'SUICIDE' -o $ANS = 'suicide' -o $ANS = 'Suicide' ]; then 
+echo -e "${CYAN}At least y'know how you died."
+echo -e "${CYAN}Obviously you are in ${RED}hell${NONE}."
+echo -e "${CYAN}The word ${RED}'hell'${CYAN} is a word that needs to be taken note of for the ${GREEN}passcode of the Gateway.${NONE}"
+else
+echo -e "${CYAN}You are wrong....Think how you died...${NONE}"
+fi
+fi
+fi
+fi
+fi
+fi

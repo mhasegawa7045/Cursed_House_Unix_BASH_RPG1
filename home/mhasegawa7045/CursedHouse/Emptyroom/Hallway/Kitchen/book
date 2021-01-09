@@ -1,0 +1,43 @@
+#!/bin/bash
+PATH=/bin:/usr/bin:
+
+NONE='\033[00m'
+RED='\033[01;31m'
+GREEN='\033[01;32m'
+YELLOW='\033[01;33m'
+PURPLE='\033[01;35m'
+CYAN='\033[01;36m'
+WHITE='\033[01;37m'
+BOLD='\033[1m'
+UNDERLINE='\033[4m'
+echo -e "You see a book with the title ${PURPLE}DIARY${NONE}..."
+echo "Do you want to read it? y/n"
+read RESP
+if [ $RESP = 'n' -o $RESP = 'N' ]; then
+echo "You leave it alone..."
+else if [ $RESP = 'y' -o $RESP = 'Y' ]; then
+echo "You can't open the book since it has a 4-letter password lock."
+echo -e "${PURPLE}Who do I love the most...?${NONE}"
+read LOVE
+if [ $LOVE = 'BILL' -o $LOVE = 'bill' -o $LOVE = 'Bill' ]; then
+echo -e "${RED}BWAHAHAHHAHA WHAT A MORON!!!!!!${NONE}"
+else if [ $LOVE = 'JOAH' -o $LOVE = 'Joah' -o $LOVE = 'joah' ]; then
+echo -e "${PURPLE}'Dear diary,
+Why did I marry this drunk arse...
+He treats me like a slave and has never been a good father to our child...
+All day he drinks and watches TV...
+And he already got fired in his janitor job in Winn-dixie for intoxication.
+I feel like I'm in ${RED}hell${PURPLE}
+I think I might go through the divorce.
+I'm going to give him the divorce papers tomorrow...
+Signed,
+Mariom
+
+June ${RED}3${PURPLE}, 1995
+${NONE}
+"
+echo -e "The red ${RED}3${NONE} makes you think that it's something important to remember..."
+fi
+fi
+fi
+fi

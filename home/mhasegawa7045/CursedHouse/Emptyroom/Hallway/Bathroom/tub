@@ -1,0 +1,23 @@
+#!/bin/bash
+PATH=/bin:/usr/bin:
+
+NONE='\033[00m'
+RED='\033[01;31m'
+GREEN='\033[01;32m'
+YELLOW='\033[01;33m'
+PURPLE='\033[01;35m'
+CYAN='\033[01;36m'
+WHITE='\033[01;37m'
+BOLD='\033[1m'
+UNDERLINE='\033[4m'
+BLINK='\033[5m'
+echo -e "You see a decayed tub filled with a ${YELLOW}musty, pungent liquid.${NONE}"
+echo "Would you like to drink it? y/n"
+read RESP
+if [ $RESP = "y" -o $RESP = "Y" ]; then
+echo -e "You take a big scoop of the ${YELLOW}liquid${NONE} and let the ${RED}burning sensation ${NONE}slide down your throat..."
+echo "You hear the voice of a disappointed woman..."
+echo -e "${PURPLE}Why did I marry this stupid drunk...${NONE}"
+else
+echo "You are not in the mood..."
+fi

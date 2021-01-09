@@ -1,0 +1,59 @@
+#!/bin/bash
+PATH=/bin:/usr/bin:
+
+NONE='\033[00m'
+RED='\033[01;31m'
+GREEN='\033[01;32m'
+YELLOW='\033[01;33m'
+PURPLE='\033[01;35m'
+CYAN='\033[01;36m'
+WHITE='\033[01;37m'
+BOLD='\033[1m'
+UNDERLINE='\033[4m'
+BLUE='\033[00;34m'
+echo "You see an old man in a rocker"
+echo "Do you want to talk to him? y/n"
+read ANS
+if [ $ANS = 'Y' -o $ANS = 'y' ]; then
+echo -e "${BLUE}Answer all three questions correctly if you want to know the secret word, 
+you need to give to HIM in order to get the name of the secret game."
+echo -e "What is your wife's name?${NONE}"
+read A
+if [ $A = 'mariom' -o $A = 'Mariom' -o $A = 'MARIOM' ]; then
+echo -e "${BLUE}CORRECT"
+echo -e "What is your son's name?${NONE}"
+read B
+if [ $B = 'Joah' -o $B = 'joah' -o $B = 'JOAH' ]; then
+echo -e "${BLUE}CORRECT"
+echo -e "What is the writer's name?${NONE}"
+read C
+if [ $C = 'Satan' -o $C = 'satan' -o $C = 'SATAN' ]; then
+echo "
+The man's head is becoming goatlike"
+echo -e "${YELLOW}
+            ,--; ,--;
+           ,  ;' ; ;      ,,
+('-_   ,,,;  ;  ! ;   __.--- ;  
+ .   -.          !--^   ..;
+  ;!.      !     !----'
+     (((O      O))) ;
+      ;        ;   ;
+      ;            :
+      :       ;     ;;;;
+      :o___o ;      ;  ;;;;
+       {------}     ;     ;;;;
+        {      }   ;       ;;;
+        {'     }  ;
+       {-----}  ;
+       {____} ;
+${NONE}"
+echo -e "${YELLOW}BWAAAAH BWAAAAH BWAAAHH
+THE GREAT ${RED}BAPHOMET${YELLOW}
+BWAH BWAH BWAH BWAH BWAH 
+IS THE KEY TO FREEDOM${YELLOW} 
+
+${RED}BAPHOMET...${NONE}"
+fi
+fi
+fi
+fi

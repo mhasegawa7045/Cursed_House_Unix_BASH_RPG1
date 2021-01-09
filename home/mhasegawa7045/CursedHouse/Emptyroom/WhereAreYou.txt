@@ -1,0 +1,36 @@
+You feel the coolness of cement under you're sore body...
+You try to wake up...
+But you find yourself in an empty room with a mysterios door at the right corner
+There's a note stapled to the door"
+
+        _____________
+        |  ___  ___  |
+        |  | _|_|_ | |
+        |  | \    \| |
+        |  | |    || |
+        |  | /___ /| |
+        |  |__| |__| |
+        |   __   __ x|
+        |  |  | |  | |          .
+        |  |  | |  | |          .
+        |  |  | |  | |          .
+        |  |  | |  | |          |
+        |  |  | |  | |          |
+        |  |  | |  | |          |
+        |  |__| |__| |          |
+________|____________|__________|
+                                 .
+                                  .
+                                   .
+                                    .
+                                     .
+                                      .
+                                       ."
+
+
+If you want to read the note
+Type:
+cat note
+
+cat NOTE is a skill that allows you to READ notes.
+

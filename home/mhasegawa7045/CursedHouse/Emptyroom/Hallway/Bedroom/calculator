@@ -1,0 +1,21 @@
+#!/bin/bash
+echo "You find an old calculator you used when you were in middle school."
+echo "You remember you were never good at math back then."
+echo "You would write words by flipping the numbers on the calculator UPSIDE down..."
+echo "  
+
+         | FFO ||  TG || CRM || +M || -M |
+      |  |_____||_____||_____||____||____| |
+      |   _____                            |
+      |  | NO  |                           |
+      |  |_____|                           |
+      |  ________________________________  |
+      | |               ___  ____ ____   | |
+      | |         |    |   ||    |       | |
+      | |         |___ |   ||___ |___    | |
+      | |         |   ||   |    ||       | |  
+      | |         |   ||___| ___||___    | | 
+      | |_______________________________ | |   
+      |____________________________________|
+
+"

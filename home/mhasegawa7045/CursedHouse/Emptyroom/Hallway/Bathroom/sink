@@ -1,0 +1,84 @@
+#!/bin/bash
+PATH=/bin:/usr/bin:
+NONE='\033[00m'
+RED='\033[01;31m'
+GREEN='\033[01;32m'
+YELLOW='\033[01;33m'
+PURPLE='\033[01;35m'
+CYAN='\033[01;36m'
+WHITE='\033[01;37m'
+BOLD='\033[1m'
+UNDERLINE='\033[4m'
+echo -e "${NONE}You see an sink"
+
+echo "
+             _______
+            | ____ |
+            | |  | |
+            | |  |_|
+            | |
+     ______ | |_______
+    {       |_|       }
+   {  (-------------)  }
+   { (               )  }
+   { (               )  }
+   { (               )  }
+   { (               )  }
+   { (               )  }
+   {  (-------------)   }
+    {__________________}
+      {               }
+       {             }
+       {__        ___}
+          {_______}"
+
+echo -e "${BOLD}Would you like to turn on the faucet? y/n"
+read RESP
+if [ $RESP = "y" -o $RESP = "Y" ]; then
+echo "You turn on the faucet and no water comes out..."
+echo "Do you want to hit the faucet? y/n"
+ read RESP  
+ if [ $RESP = "y" -o $RESP = "Y" ]; then
+ echo "You hit the sink"
+ echo -e  "${YELLOW}BAM BAM BAM"
+ echo -e "${NONE}nothing comes out"
+ echo "You notice a wrench in the corner of your eye"
+ echo "                          
+    .----'''.                   ,-------, 
+   '----     -------------------  ,----, |
+        }                        <     | |
+   .----    .------------------.  '----' |
+    *----'''                    '-------'
+    
+
+
+
+
+"
+ echo -e "${BOLD}Do you want to use the wrench to hit the sink? y/n"
+ read RESP 
+ if [ $RESP = "y" -o $RESP = "Y" ]; then
+ echo -e "${YELLOW}BAM BAM BAM"
+ echo -e "${NONE}You suddenly hear a distressed woman's voice..."
+ echo -e "${PURPLE}STOP IT STOP IT. STOP HITTING OUR CHILD, BILL. AHHHHHHHHHHH${NONE}"
+ echo -e "${RED}BAM"
+ echo -e "${NONE}  
+          _____
+         |     |
+         |_____|"
+echo -e "${RED}          ▒████  
+          ▒███▒
+          ▒███▒
+          ▒█ █░
+           ░ ▓▒
+           ░ ▒░ 
+             ▒░ 
+             ░░  
+             ░  
+"
+echo -e "${NONE}You're upset that you can't wash your hands, but at least you know your ${UNDERLINE}name${NONE}..."          
+else
+echo "you leave it alone..."
+fi
+fi
+fi 

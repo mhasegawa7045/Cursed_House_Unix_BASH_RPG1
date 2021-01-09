@@ -1,0 +1,38 @@
+Dear participant,
+You may be wondering why you are here, or who you are?
+But that does not matter since your goal should be knowing how to leave this house. 
+This house is not safe for anyone to stay for too long, so you have to find your way to freedom.
+It will not be easy...and if you fail you die.
+
+You will need to learn skills as you go through this place, 
+and solve puzzles and riddles in order to go through the door that leads to freedom. 
+The door is locked with a secret password. Find the password and unlock you way to freedom.
+
+Here's your first hint, since I know you're too inferior to understand this world...
+
+Type this if you want to see you're surroundings
+ls 
+
+Then type this to get out of the room and to the hallway or any other room:
+cd LOCATION
+cd Hallway
+
+You already know this, but as a friendly reminder remember to use the command:
+cat *****
+cat note
+To read NOTES
+
+In short,
+
+cd LOCATION: allows to MOVE to different locations
+
+cat note: allows to READ notes
+
+ls: allows to SEE you're surroundings
+
+REMEMBER THESE COMMANDS
+
+Good Luck,
+~ S. :))))
+P.S.
+The commands are case-sensitive

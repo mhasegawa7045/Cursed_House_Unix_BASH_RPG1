@@ -1,0 +1,9 @@
+#!/bin/bash
+echo "You see a door and wonder is it possible to open it"
+echo "Would you like to open the door? y/n" 
+read RESP
+if [ $RESP = 'y' -o $RESP = 'Y' ]; then
+echo "it won't budge"
+else
+echo "you leave it alone"
+fi

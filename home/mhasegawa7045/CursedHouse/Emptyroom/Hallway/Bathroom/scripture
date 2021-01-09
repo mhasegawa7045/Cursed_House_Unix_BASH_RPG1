@@ -1,0 +1,63 @@
+#!/bin/bash
+PATH=/bin:/usr/bin:
+
+NONE='\033[00m'
+RED='\033[01;31m'
+GREEN='\033[01;32m'
+YELLOW='\033[01;33m'
+PURPLE='\033[01;35m'
+CYAN='\033[01;36m'
+WHITE='\033[01;37m'
+BOLD='\033[1m'
+UNDERLINE='\033[4m'
+echo "'Happy shall he be, that taketh and dasheth thy little ones against the _______.' | Psalm 137:9"
+echo "Do you want to touch it? y/n"
+read ANS
+if [ $ANS = y -o $ANS = Y ]; then
+echo "You touch it and it pricks your finger."
+echo -e "You finger is now ${RED}bleeding...${NONE}"
+echo -e "Fill in the blank with your ${RED}blood."
+read ANS
+if [ $ANS = 'stones' -o $ANS = 'Stones' -o $ANS = 'STONES' ]; then
+echo -e "${RED}
+  ██████ ▄▄▄█████▓ ▒█████   ███▄    █ ▓█████   ██████ 
+▒██    ▒ ▓  ██▒ ▓▒▒██▒  ██▒ ██ ▀█   █ ▓█   ▀ ▒██    ▒ 
+░ ▓██▄   ▒ ▓██░ ▒░▒██░  ██▒▓██  ▀█ ██▒▒███   ░ ▓██▄   
+  ▒   ██▒░ ▓██▓ ░ ▒██   ██░▓██▒  ▐▌██▒▒▓█  ▄   ▒   ██▒
+▒██████▒▒  ▒██▒ ░ ░ ████▓▒░▒██░   ▓██░░▒████▒▒██████▒▒
+▒ ▒▓▒ ▒ ░  ▒ ░░   ░ ▒░▒░▒░ ░ ▒░   ▒ ▒ ░░ ▒░ ░▒ ▒▓▒ ▒ ░
+░ ░▒  ░ ░    ░      ░ ▒ ▒░ ░ ░░   ░ ▒░ ░ ░  ░░ ░▒  ░ ░
+░  ░  ░    ░      ░ ░ ░ ▒     ░   ░ ░    ░   ░  ░  ░  
+      ░               ░ ░           ░    ░  ░      ░  
+                                                      
+${NONE}"
+echo "You see the blood clobbing together to form something else..."
+echo -e "${RED}
+
+    ██░██  █    ██  ██░ ██  ▄▄▄▄  ██░ ██  █    ██ ▒███████▒ ██▓                       
+   ▓██ ██▒ ██▓██▒▓██░ ██▒▓█████▄ ▓██░ ██▒ ██  ▓██▒▒ ▒ ▒ ▄▀░▓██▒                       
+   ▒██▀▀██░▓██ ▒██░▒██▀▀██░▒██▒ ▄██  ▒██▀▀██░▓██  ▒██░░ ▒ ▄▀▒░ ▒██▒                       
+   ░▓█░██ ▓▓█  ░██░░▓█ ░██ ▒██░█▀ ░▓█ ░██ ▓▓█  ░██░  ▄▀▒   ░░██░                       
+   ░▓█▒░██▓▒▒█████▓ ░▓█▒░██▓░▓█  ▀█▓ ░▓█▒░██▓▒▒█████▓ ▒███████▒░██░                       
+    ▒ ░░▒░▒░▒▓▒ ▒ ▒  ▒ ░░▒░▒░▒▓███▀▒    ▒ ░░▒░▒░▒▓▒ ▒ ▒ ░▒▒ ▓░▒░▒░▓                         
+    ▒ ░▒░ ░░░▒░ ░ ░  ▒ ░▒░ ░▒░▒   ░     ▒ ░▒░ ░░░▒░ ░ ░ ░░▒ ▒ ░ ▒ ▒ ░                       
+    ░  ░░ ░ ░░░ ░ ░  ░  ░░ ░ ░    ░     ░  ░░ ░ ░░░ ░ ░ ░ ░ ░ ░ ░ ▒ ░                       
+    ░  ░  ░   ░      ░  ░  ░ ░          ░  ░  ░   ░       ░ ░     ░                        
+
+                                  ░                     ░                                  
+"
+echo -e "
+  █████▒▒█████   █    ██  ██▀███  
+▓██   ▒▒██▒  ██▒ ██  ▓██▒▓██ ▒ ██▒
+▒████ ░▒██░  ██▒▓██  ▒██░▓██ ░▄█ ▒
+░▓█▒  ░▒██   ██░▓▓█  ░██░▒██▀▀█▄  
+░▒█░   ░ ████▓▒░▒▒█████▓ ░██▓ ▒██▒
+ ▒ ░   ░ ▒░▒░▒░ ░▒▓▒ ▒ ▒ ░ ▒▓ ░▒▓░
+ ░       ░ ▒ ▒░ ░░▒░ ░ ░   ░▒ ░ ▒░
+ ░ ░   ░ ░ ░ ▒   ░░░ ░ ░   ░░   ░ 
+           ░ ░     ░        ░             
+${NONE} You feel that the number ${RED}4${NONE} is important..."
+else
+echo -e "${NONE}Nothing happened. That might have been the wrong word..."
+fi
+fi

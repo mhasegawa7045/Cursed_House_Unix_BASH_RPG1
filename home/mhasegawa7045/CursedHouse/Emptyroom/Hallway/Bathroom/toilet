@@ -1,0 +1,29 @@
+#!/bin/bash
+PATH=/bin:/usr/bin:
+
+NONE='\033[00m'
+RED='\033[01;31m'
+GREEN='\033[01;32m'
+YELLOW='\033[01;33m'
+PURPLE='\033[01;35m'
+CYAN='\033[01;36m'
+WHITE='\033[01;37m'
+BOLD='\033[1m'
+UNDERLINE='\033[4m'
+echo "You see a toilet and you have the urge to do your business."
+echo "Would you like to use the toilet? y/n"
+read RESP
+if [ $RESP = "y" -o $RESP = "Y" ]; then 
+ echo "You lift the lid and do your business."
+ echo "............"
+ echo "You finished and you fixed yourself."
+ echo "Will you flush the toilet? y/n"
+ read RESP
+ if [ $RESP = "y" -o $RESP = "Y" ]; then
+  echo "You flushed the toilet."
+else
+ echo "you hear the voice of an angry woman..."
+ echo -e "${PURPLE}WHY CAN'T YOU FLUSH THE DAMN TOILET!!!${NONE}"
+ echo -e "${RED}You don't know why... but you feel aggitated...${NONE}"
+fi 
+fi
