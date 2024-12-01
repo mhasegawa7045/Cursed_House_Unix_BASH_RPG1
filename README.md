@@ -1,4 +1,4 @@
-# Cursed_House_Unix_BASH_RPG
+# Cursed House Unix BASH RPG Project
 
 - Author: Marie Hasegawa
 - Class: Unix
